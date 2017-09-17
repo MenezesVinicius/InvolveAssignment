@@ -84,8 +84,9 @@ $blogPosts = GetBlogPosts();
                 echo "<a href='post.html'>";
                 echo "<h2 class='post-title'>" . $post->title . "</h2>";
                 echo "</a>";
-                echo "<p>" . $post->post . "</p";
-                echo "<span class='footer'> Posted By: " . $post->author . " Posted On: " . $post->datePosted . "</span>";
+                echo "<p>" . $post->post . "</p>";
+                echo "<span class='footer'> Posted By: " . $post->author . "</span>";
+                echo "<p class='post-meta'> Posted On: " . $post->datePosted . "</p>";
                 echo "</div>";
                 echo "<hr>";
             }

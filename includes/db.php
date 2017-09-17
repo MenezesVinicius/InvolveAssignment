@@ -1,8 +1,8 @@
 <?php
 $servidor = 'mysql552.umbler.com:41890';
-$usuario = 'gama_test';
-$senha = 'test_gama';
-$banco = 'gama_test';
+$usuario = 'gamaofthrones';
+$senha = 'gamagama';
+$banco = 'trend_blog';
 
 // Conecta-se ao banco de dados MySQL
 $con = mysqli_connect($servidor, $usuario, $senha, $banco);
