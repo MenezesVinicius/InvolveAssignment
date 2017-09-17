@@ -65,9 +65,8 @@ $blogPosts = GetBlogPosts();
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="site-heading">
-                    <h1 class="text-primary">dOOb</h1>
-                    <h1 class="text-dark">Tech Blog</h1>
-                    <span class="subheading text-primary">A Blog by Gama of Thrones Team</span>
+                    <h1 class="text-primary">Conteúdo Trade</h1>
+                    <span class="subheading text-primary">Um Blog de especialistas no asssunto</span>
                 </div>
             </div>
         </div>
