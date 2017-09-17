@@ -7,7 +7,6 @@ $blogPosts = GetBlogPosts();
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -29,6 +28,18 @@ $blogPosts = GetBlogPosts();
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
 
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106570963-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        ;
+        gtag('js', new Date());
+
+        gtag('config', 'UA-106570963-1');
+    </script>
 </head>
 
 <body>
@@ -91,23 +102,23 @@ $blogPosts = GetBlogPosts();
             }
             ?>
 
-<!--            <div class="post-preview">-->
-<!--                <a href="post.html">-->
-<!--                    <h2 class="post-title">-->
-<!--                        Man must explore, and this is exploration at its greatest-->
-<!--                    </h2>-->
-<!---->
-<!--                    <h3 class="post-subtitle">-->
-<!--                        Problems look mighty small from 150 miles up-->
-<!--                    </h3>-->
-<!--                </a>-->
-<!---->
-<!--                <p class="post-meta">Posted by-->
-<!--                    <a href="#">Start Bootstrap</a>-->
-<!--                    on September 24, 2017</p>-->
-<!--            </div>-->
-<!--            <hr>-->
-<!---->
+            <!--            <div class="post-preview">-->
+            <!--                <a href="post.html">-->
+            <!--                    <h2 class="post-title">-->
+            <!--                        Man must explore, and this is exploration at its greatest-->
+            <!--                    </h2>-->
+            <!---->
+            <!--                    <h3 class="post-subtitle">-->
+            <!--                        Problems look mighty small from 150 miles up-->
+            <!--                    </h3>-->
+            <!--                </a>-->
+            <!---->
+            <!--                <p class="post-meta">Posted by-->
+            <!--                    <a href="#">Start Bootstrap</a>-->
+            <!--                    on September 24, 2017</p>-->
+            <!--            </div>-->
+            <!--            <hr>-->
+            <!---->
 
         </div>
 
