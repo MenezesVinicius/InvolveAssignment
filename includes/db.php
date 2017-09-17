@@ -2,7 +2,7 @@
 $servidor = 'mysql552.umbler.com:41890';
 $usuario = 'gamaofthrones';
 $senha = 'gamagama';
-$banco = 'trend_blog';
+$banco = 'trade_blog';
 
 // Conecta-se ao banco de dados MySQL
 $con = mysqli_connect($servidor, $usuario, $senha, $banco);
