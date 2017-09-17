@@ -130,7 +130,7 @@ body {
 
     #mainNav .navbar-nav > li.nav-item > a {
         padding: 15px 20px;
-        color: #fff
+        /*color: #fff*/
     }
 
     #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
@@ -199,7 +199,7 @@ header.masthead {
 
 header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
     padding: 200px 0 150px;
-    color: #fff
+    /*color: #fff*/
 }
 
 @media only screen and (min-width: 768px) {
