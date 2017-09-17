@@ -1,5 +1,5 @@
 <?php
-$servidor = 'mysql552.umbler.com';
+$servidor = 'mysql552.umbler.com:41890';
 $usuario = 'gama_test';
 $senha = 'test_gama';
 $banco = 'gama_test';
